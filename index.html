@@ -14,45 +14,49 @@
 
   <header>
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Weather Dashboard</h1>
-      </div>
+      <!-- <div class="container"> -->
+      <h1 class="display4">Weather Dashboard</h1>
+    </div>
     </div>
   </header>
 
   <!--search navbar(float left)-->
-  <nav class="navbar navbar-light bg-light">
-    <form class="form-inline">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </nav>
+  <div id="container">
+    <nav class="navbar navbar-light bg-light">
+      <p>Search for a City:</p>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search City" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"></button>
+      </form>
+    </nav>
 
-  <!--City search list-->
-  <ul class="list-group">
-    <li class="list-group-item">Cras justo odio</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Morbi leo risus</li>
-    <li class="list-group-item">Porta ac consectetur ac</li>
-    <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
+    <!--City search list-->
+    <ul class="list-group">
+      <li class="list-group-item">Cras justo odio</li>
+      <li class="list-group-item">Dapibus ac facilisis in</li>
+      <li class="list-group-item">Morbi leo risus</li>
+      <li class="list-group-item">Porta ac consectetur ac</li>
+      <li class="list-group-item">Vestibulum at eros</li>
+    </ul>
+  </div>
 
+  </section>
+  <section class="container">
+    <div class="row" id="forecastRow">
+    </div>
+  </section>
   <section class="container">
     <div class="row">
-      <div><h1>City Name (Active Date)</h1></div>
+      <div>
+        <h1>City Name (Active Date)</h1>
+      </div>
       <p>Temperature:</p>
       <p>Humidity:</p>
       <p>Wind Speed:</p>
       <p>UV Index</p>
     </div>
-  </section>
-  <section>
-    <div class="row">
-      <div id="hour-13" class="time-block col-lg-1">1pm</div>
-      <textarea id="oneText" class="description col-lg-10" placeholder="Schedule Event Here"></textarea>
-    </div>
-  </section>
-  <div class="card" style="width: 18rem;">
+
+  <!-- <div class="card" style="width: 18rem;">
     <div class="card-header">
       Featured
     </div>
@@ -61,10 +65,11 @@
       <li class="list-group-item">Dapibus ac facilisis in</li>
       <li class="list-group-item">Vestibulum at eros</li>
     </ul>
-  </div>
+  </div> -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="./Assets/js/script.js"></script>
+
 
 </body>
 

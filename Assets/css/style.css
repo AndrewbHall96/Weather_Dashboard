@@ -1,3 +1,19 @@
-.container {
-    float: left
+.jumbotron{
+    background-color: rgb(12, 104, 224);
+    color: white;
+    border-radius: 5px;
+    height: 150px;
+
+}
+
+.display4 {
+    position: center;
+    text-align: center;
+}
+
+#container {
+    float: left;
+}
+.display-4 {
+    position: center;
 }
